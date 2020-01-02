@@ -31,6 +31,15 @@ public class HelloUnity : MonoBehaviour
         var myName = "JaewooNam";
         // = string myName = "...."
         
+        int height_1 = 170;
+        float heightDetail = 170.3f;
+        
+        // 자동 형변환 (잃어버리는 정보가 없으면)
+        heightDetail = height_1;
+
+        // 직접 명시해야 하는 경우 (잃어버리는 정보가 있으면)
+        height_1 = (int)heightDetail;
+
         
     }
 }
