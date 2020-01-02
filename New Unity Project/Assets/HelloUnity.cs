@@ -40,6 +40,18 @@ public class HelloUnity : MonoBehaviour
         // 직접 명시해야 하는 경우 (잃어버리는 정보가 있으면)
         height_1 = (int)heightDetail;
 
+        // Array
+        int[] scores = new int[10];
+        // scores[0][1][2][3][4][5]...[9]
         
+        scores[0] = 100;
+        scores[1] = 10;
+        scores[2] = 99;
+
+        // Error: Out of range 
+        // scores[10] = 11;
+        for (int i = 0; i < scores.Length; i++) {
+            Debug.Log(scores[i]);
+        }
     }
 }
