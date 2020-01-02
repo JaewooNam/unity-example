@@ -30,7 +30,7 @@ public class HelloUnity : MonoBehaviour
         // var는 할당하는 값을 기준으로 타입을 결정
         var myName = "JaewooNam";
         // = string myName = "...."
-
+        
         
     }
 }
